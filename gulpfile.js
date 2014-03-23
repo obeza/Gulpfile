@@ -41,7 +41,7 @@ gulp.task('compass', function () {
 });
 
 // default gulp task
-gulp.task('default', ['compass', 'browser-sync', 'w3cjs'], function () {  
+gulp.task('default', ['compass', 'w3cjs', 'browser-sync'], function () {  
     gulp.watch("app/scss/*.scss", ['compass']);
     gulp.watch("app/index.html", ['w3cjs']);
 });
