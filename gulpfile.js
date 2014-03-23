@@ -5,7 +5,7 @@ var w3cjs = require('gulp-w3cjs');
 var compass = require('gulp-compass');
 var notify = require("gulp-notify");
 var es = require('event-stream');
-plumber = require('gulp-plumber');
+var plumber = require('gulp-plumber');
 var failed = false;
 
 gulp.task('browser-sync', function() {  
